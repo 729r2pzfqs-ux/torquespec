@@ -40,11 +40,22 @@
         <div class="text-xs text-gray-500">Bolt torque database</div>
       </div>
     </a>
-    <nav class="hidden md:flex items-center gap-6 text-sm">
+    <nav class="hidden md:flex items-center gap-5 text-sm">
       <a href="/metric/" class="text-gray-600 hover:text-gray-900">Metric</a>
       <a href="/imperial/" class="text-gray-600 hover:text-gray-900">Imperial</a>
       <a href="/calculator/" class="text-gray-600 hover:text-gray-900">Calculator</a>
-      <a href="/about/" class="text-gray-600 hover:text-gray-900">About</a>
+      <div class="relative group">
+        <button class="text-gray-600 hover:text-gray-900 flex items-center gap-1">More <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div class="absolute right-0 top-full mt-1 w-56 bg-white rounded-xl shadow-lg border border-gray-200 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+          <a href="/compare/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Comparisons</a>
+          <a href="/convert/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Unit Converters</a>
+          <a href="/thread/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Thread Pitch</a>
+          <a href="/materials/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Materials</a>
+          <a href="/guides/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Application Guides</a>
+          <div class="border-t border-gray-100 my-1"></div>
+          <a href="/about/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">About / Methodology</a>
+        </div>
+      </div>
     </nav>
     <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden p-2">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -52,10 +63,16 @@
   </div>
   <div id="mobileMenu" class="hidden md:hidden border-t border-gray-200 bg-white">
     <div class="px-4 py-3 space-y-2">
-      <a href="/metric/" class="block py-2 text-gray-700">Metric Bolts</a>
-      <a href="/imperial/" class="block py-2 text-gray-700">Imperial Bolts</a>
-      <a href="/calculator/" class="block py-2 text-gray-700">Calculator</a>
-      <a href="/about/" class="block py-2 text-gray-700">About</a>
+      <a href="/metric/" class="block py-2 text-gray-700 font-medium">Metric Bolts</a>
+      <a href="/imperial/" class="block py-2 text-gray-700 font-medium">Imperial Bolts</a>
+      <a href="/calculator/" class="block py-2 text-gray-700 font-medium">Calculator</a>
+      <div class="border-t border-gray-100 my-1"></div>
+      <a href="/compare/" class="block py-2 text-gray-600">Comparisons</a>
+      <a href="/convert/" class="block py-2 text-gray-600">Unit Converters</a>
+      <a href="/thread/" class="block py-2 text-gray-600">Thread Pitch</a>
+      <a href="/materials/" class="block py-2 text-gray-600">Materials</a>
+      <a href="/guides/" class="block py-2 text-gray-600">Application Guides</a>
+      <a href="/about/" class="block py-2 text-gray-600">About / Methodology</a>
     </div>
   </div>
 </header>
@@ -191,19 +208,18 @@
         <h4 class="text-white font-medium mb-3">Tools</h4>
         <div class="space-y-1 text-sm">
           <a href="/calculator/" class="block hover:text-white">Torque Calculator</a>
-          <a href="/metric/" class="block hover:text-white">Metric Chart</a>
-          <a href="/imperial/" class="block hover:text-white">Imperial Chart</a>
+          <a href="/convert/" class="block hover:text-white">Unit Converters</a>
+          <a href="/thread/" class="block hover:text-white">Thread Pitch</a>
+          <a href="/materials/" class="block hover:text-white">Materials</a>
         </div>
       </div>
       <div>
         <h4 class="text-white font-medium mb-3">Reference</h4>
         <div class="space-y-1 text-sm">
+          <a href="/compare/" class="block hover:text-white">Comparisons</a>
+          <a href="/guides/" class="block hover:text-white">Application Guides</a>
           <a href="/about/" class="block hover:text-white">How We Calculate</a>
           <a href="/about/#standards" class="block hover:text-white">Standards</a>
-          <a href="/convert/" class="block hover:text-white">Unit Converters</a>
-          <a href="/guides/" class="block hover:text-white">Guides</a>
-          <a href="/compare/grade-5-vs-grade-8/" class="block hover:text-white">Grade 5 vs 8</a>
-          <a href="/compare/class-8-8-vs-10-9/" class="block hover:text-white">Class 8.8 vs 10.9</a>
         </div>
       </div>
     </div>
