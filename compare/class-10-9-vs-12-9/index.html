@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 10.9 vs 12.9 Bolts — Torque Comparison | TorqueSpec</title>
+<meta name="description" content="ISO Class 10.9 vs 12.9 bolt torque comparison. When to upgrade to the highest standard property class and the engineering trade-offs involved.">
+<link rel="canonical" href="https://torquespec.org/compare/class-10-9-vs-12-9/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#059669">
+<meta name="msapplication-TileColor" content="#059669">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*{font-family:'Inter',sans-serif}body{background:#f8fafc}</style>
+<meta property="og:title" content="Class 10.9 vs 12.9 Bolts — Torque Comparison | TorqueSpec">
+<meta property="og:description" content="ISO Class 10.9 vs 12.9 bolt torque comparison. When to upgrade to the highest standard property class and the engineering trade-offs involved.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://torquespec.org/compare/class-10-9-vs-12-9/">
+<meta property="og:site_name" content="TorqueSpec">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C4PS6758JH"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-C4PS6758JH');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Class 10.9 vs 12.9 Bolts — Torque Comparison", "description": "ISO Class 10.9 vs 12.9 bolt torque comparison. When to upgrade to the highest standard property class and the engineering trade-offs involved.", "url": "https://torquespec.org/compare/class-10-9-vs-12-9/", "publisher": {"@type": "Organization", "name": "TorqueSpec", "url": "https://torquespec.org"}}</script>
+</head>
+<body class="text-gray-700 min-h-screen">
+<header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2">
+      <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+        </svg>
+      </div>
+      <div>
+        <div class="font-bold text-gray-900">TorqueSpec</div>
+        <div class="text-xs text-gray-500">Bolt torque database</div>
+      </div>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="/metric/" class="text-gray-600 hover:text-gray-900">Metric</a>
+      <a href="/imperial/" class="text-gray-600 hover:text-gray-900">Imperial</a>
+      <a href="/calculator/" class="text-gray-600 hover:text-gray-900">Calculator</a>
+      <a href="/about/" class="text-gray-600 hover:text-gray-900">About</a>
+    </nav>
+    <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden p-2">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-gray-200 bg-white">
+    <div class="px-4 py-3 space-y-2">
+      <a href="/metric/" class="block py-2 text-gray-700">Metric Bolts</a>
+      <a href="/imperial/" class="block py-2 text-gray-700">Imperial Bolts</a>
+      <a href="/calculator/" class="block py-2 text-gray-700">Calculator</a>
+      <a href="/about/" class="block py-2 text-gray-700">About</a>
+    </div>
+  </div>
+</header>
+
+<section class="bg-gradient-to-b from-emerald-50 to-white px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-sm text-gray-500 mb-4"><a href="/" class="hover:text-emerald-600">Home</a> &rsaquo; <span class="text-gray-700">Class 10.9 vs 12.9</span></div>
+    <h1 class="text-3xl font-bold text-gray-900 mb-3">Class 10.9 vs 12.9 Bolts</h1>
+    <p class="text-gray-600 text-lg">When to step up to the highest standard property class — and the engineering trade-offs involved.</p>
+  </div>
+</section>
+
+<section class="px-4 py-8">
+  <div class="max-w-4xl mx-auto space-y-8">
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Key Differences</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-amber-50 rounded-lg p-5">
+          <h3 class="font-bold text-amber-900 mb-2">ISO Class 10.9</h3>
+          <p class="text-sm text-amber-800 mb-2">Proof stress: 830 MPa · Tensile: 1040 MPa</p>
+          <p class="text-sm text-amber-800 mb-2">Material: Alloy steel, quenched & tempered</p>
+          <p class="text-sm text-amber-800">Ductility: Good — reliable yielding behavior before fracture</p>
+        </div>
+        <div class="bg-red-50 rounded-lg p-5">
+          <h3 class="font-bold text-red-900 mb-2">ISO Class 12.9</h3>
+          <p class="text-sm text-red-800 mb-2">Proof stress: 970 MPa · Tensile: 1220 MPa</p>
+          <p class="text-sm text-red-800 mb-2">Material: Alloy steel, quenched & tempered to higher hardness</p>
+          <p class="text-sm text-red-800">Ductility: Reduced — more susceptible to hydrogen embrittlement</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+      <h2 class="text-xl font-bold text-gray-900 p-6 pb-4">Torque Comparison (Dry/Plain, Coarse Thread)</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead class="bg-emerald-600 text-white">
+            <tr><th class="py-3 px-4 text-left">Size</th><th class="py-3 px-4 text-center">Class 10.9</th><th class="py-3 px-4 text-center">Class 12.9</th><th class="py-3 px-4 text-center">Difference</th></tr>
+          </thead>
+          <tbody><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M6</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m6-10.9/" class="text-emerald-600 hover:text-emerald-800">15.0 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m6-12.9/" class="text-emerald-600 hover:text-emerald-800">17.6 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M8</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m8-10.9/" class="text-emerald-600 hover:text-emerald-800">36.5 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m8-12.9/" class="text-emerald-600 hover:text-emerald-800">42.6 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M10</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m10-10.9/" class="text-emerald-600 hover:text-emerald-800">72.2 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m10-12.9/" class="text-emerald-600 hover:text-emerald-800">84.4 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M12</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m12-10.9/" class="text-emerald-600 hover:text-emerald-800">125.9 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m12-12.9/" class="text-emerald-600 hover:text-emerald-800">147.1 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M14</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m14-10.9/" class="text-emerald-600 hover:text-emerald-800">201.2 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m14-12.9/" class="text-emerald-600 hover:text-emerald-800">235.2 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M16</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m16-10.9/" class="text-emerald-600 hover:text-emerald-800">312.1 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m16-12.9/" class="text-emerald-600 hover:text-emerald-800">364.7 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M18</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m18-10.9/" class="text-emerald-600 hover:text-emerald-800">431.3 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m18-12.9/" class="text-emerald-600 hover:text-emerald-800">504.1 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M20</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m20-10.9/" class="text-emerald-600 hover:text-emerald-800">609.5 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m20-12.9/" class="text-emerald-600 hover:text-emerald-800">712.3 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M22</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m22-10.9/" class="text-emerald-600 hover:text-emerald-800">831.0 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m22-12.9/" class="text-emerald-600 hover:text-emerald-800">971.2 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M24</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m24-10.9/" class="text-emerald-600 hover:text-emerald-800">1053.3 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m24-12.9/" class="text-emerald-600 hover:text-emerald-800">1230.9 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M27</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m27-10.9/" class="text-emerald-600 hover:text-emerald-800">1544.3 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m27-12.9/" class="text-emerald-600 hover:text-emerald-800">1804.8 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr><tr class="border-b border-gray-100 hover:bg-gray-50">
+              <td class="py-3 px-4 font-bold">M30</td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m30-10.9/" class="text-emerald-600 hover:text-emerald-800">2093.8 N·m</a></td>
+              <td class="py-3 px-4 text-center"><a href="/metric/m30-12.9/" class="text-emerald-600 hover:text-emerald-800">2447.0 N·m</a></td>
+              <td class="py-3 px-4 text-center text-sm font-medium text-amber-700">+17%</td>
+            </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">The Case Against Class 12.9</h2>
+      <div class="space-y-4 text-gray-600">
+        <p>Class 12.9 offers roughly 17% more clamping force than 10.9. That modest gain comes with real trade-offs that make many engineers avoid it unless absolutely necessary.</p>
+        <p><strong class="text-gray-900">Hydrogen embrittlement:</strong> The higher hardness (39–44 HRC vs 33–39 HRC for 10.9) makes 12.9 bolts significantly more susceptible to hydrogen-induced delayed fracture. This is especially concerning with electroplated coatings (zinc, cadmium) where hydrogen is introduced during the plating process. Baking after plating is mandatory but not always sufficient.</p>
+        <p><strong class="text-gray-900">Reduced ductility:</strong> Class 12.9 bolts have less ability to deform before fracture. In joints with uneven loading or slight misalignment, a 10.9 bolt will redistribute stress through controlled yielding. A 12.9 bolt is more likely to crack.</p>
+        <p><strong class="text-gray-900">When 12.9 is justified:</strong> Space-constrained high-load joints where increasing bolt diameter is impossible. Socket head cap screws (DIN 912 / ISO 4762) are commonly supplied in 12.9 because the socket head design already implies a precision, controlled-torque application.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 px-4 py-8">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+      <div>
+        <h4 class="text-white font-medium mb-3">Metric Bolts</h4>
+        <div class="space-y-1 text-sm">
+          <a href="/metric/m8-8.8/" class="block hover:text-white">M8 Grade 8.8</a>
+          <a href="/metric/m10-8.8/" class="block hover:text-white">M10 Grade 8.8</a>
+          <a href="/metric/m10-10.9/" class="block hover:text-white">M10 Grade 10.9</a>
+          <a href="/metric/m12-8.8/" class="block hover:text-white">M12 Grade 8.8</a>
+          <a href="/metric/m16-10.9/" class="block hover:text-white">M16 Grade 10.9</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-medium mb-3">Imperial Bolts</h4>
+        <div class="space-y-1 text-sm">
+          <a href="/imperial/3-8-grade-5/" class="block hover:text-white">3/8" Grade 5</a>
+          <a href="/imperial/1-2-grade-5/" class="block hover:text-white">1/2" Grade 5</a>
+          <a href="/imperial/1-2-grade-8/" class="block hover:text-white">1/2" Grade 8</a>
+          <a href="/imperial/3-4-grade-8/" class="block hover:text-white">3/4" Grade 8</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-medium mb-3">Tools</h4>
+        <div class="space-y-1 text-sm">
+          <a href="/calculator/" class="block hover:text-white">Torque Calculator</a>
+          <a href="/metric/" class="block hover:text-white">Metric Chart</a>
+          <a href="/imperial/" class="block hover:text-white">Imperial Chart</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-medium mb-3">Reference</h4>
+        <div class="space-y-1 text-sm">
+          <a href="/about/" class="block hover:text-white">How We Calculate</a>
+          <a href="/about/#standards" class="block hover:text-white">Standards</a>
+          <a href="/convert/" class="block hover:text-white">Unit Converters</a>
+          <a href="/guides/" class="block hover:text-white">Guides</a>
+          <a href="/compare/grade-5-vs-grade-8/" class="block hover:text-white">Grade 5 vs 8</a>
+          <a href="/compare/class-8-8-vs-10-9/" class="block hover:text-white">Class 8.8 vs 10.9</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 pt-6 text-sm text-center">
+      <p>&copy; 2026 TorqueSpec.org — Bolt Torque Specification Database</p>
+      <p class="mt-1 text-gray-500">Values derived from ISO 898-1, SAE J429, and VDI 2230. For reference only — always verify critical applications with manufacturer specifications.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
