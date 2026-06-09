@@ -238,7 +238,7 @@ function calculate(){
     const possibleKeys=Object.keys(DATA).filter(k=>DATA[k].type==="imperial"&&DATA[k].size===size&&String(DATA[k].grade)===String(grade));
     if(possibleKeys.length>0) key=possibleKeys[0];
     threadKey=threadRadio==="coarse"?"unc":"unf";
-    const slugSize=size.replace(/\//g,"-").replace("#","");
+    const slugSize=size.replace(/#/g,"no").replace(/\//g,"-");
     slugBase="/imperial/"+slugSize+"-grade-"+grade+"/";
   }
 
