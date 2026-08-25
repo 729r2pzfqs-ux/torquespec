@@ -176,14 +176,16 @@
 
     <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
       <h2 class="text-xl font-bold text-gray-900 mb-4">Validation</h2>
-      <p class="text-gray-600 mb-3">Our calculated values have been cross-referenced against published torque tables from multiple independent sources:</p>
+      <p class="text-gray-600 mb-3">Every value on this site is calculated, not transcribed: T = K &times; D &times; F, with F = 0.75 &times; proof stress &times; tensile stress area. Published torque tables do not all share that basis, so we cross-reference against them to check our arithmetic and our inputs &mdash; not to match their absolute numbers.</p>
       <div class="space-y-2 text-gray-600">
         <p>Portland Bolt — manufacturer torque tables for imperial grades</p>
         <p>Fastenal — engineering reference torque data</p>
         <p>Bolt Depot — fastener specification charts</p>
         <p>Fractory — metric bolt torque reference tables</p>
       </div>
-      <p class="text-gray-600 mt-3">All values fall within ±2% of published references, confirming the accuracy of our calculation methodology.</p>
+      <p class="text-gray-600 mt-3">Where a source shares our preload basis (75% of proof load) and K-factor, our values agree with it to within about 2% &mdash; the residual being rounding and small differences in the stress-area figures used. That is the case for the imperial grades checked against Portland Bolt, Fastenal and Bolt Depot.</p>
+          <p class="text-gray-600 mt-3">Where a source uses a different preload basis, the two sets of numbers are not directly comparable and the gap is larger than 2%. Fractory&rsquo;s metric tables are the clearest example: they are not built on the same 75%-of-proof assumption we use, so their absolute N&middot;m figures sit on a different footing than ours even when the formula and K-factor agree. We use them to check the shape of the data &mdash; the ratios between classes, sizes and thread pitches &mdash; rather than as an absolute reference. A difference of that kind reflects a stated modelling assumption, not an error in either table.</p>
+          <p class="text-gray-600 mt-3">Two further points worth stating plainly. Proof stress is tiered by diameter in both ISO 898-1 and SAE J429 &mdash; Class 8.8 is 580 MPa up to M16 and 600 MPa from M18 up, and SAE Grade 2 and Grade 5 each step down above a threshold diameter &mdash; and we apply the tier that belongs to each size. And the K-factor is the dominant source of real-world scatter: it is an empirical friction estimate, and actual joints routinely vary by more than the 2% figure above. For any critical joint, verify against the manufacturer&rsquo;s specification or measure preload directly.</p>
     </div>
 
     <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
