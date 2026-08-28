@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bolt Torque Specs: M3–M64 & SAE #6–1-1/2" | TorqueSpec</title>
-<meta name="description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition. ISO 898-1 and SAE J429. Instant lookup.">
+<meta name="description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition, plus lug nut torque for 102 vehicles. ISO 898-1 and SAE J429.">
 <link rel="canonical" href="https://torquespec.org/">
 <link rel="alternate" hreflang="en" href="https://torquespec.org/">
 <link rel="alternate" hreflang="x-default" href="https://torquespec.org/">
@@ -21,7 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>*{font-family:'Inter',sans-serif}body{background:#f8fafc}</style>
 <meta property="og:title" content="Bolt Torque Specs: M3–M64 &amp; SAE #6–1-1/2&quot; | TorqueSpec">
-<meta property="og:description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition. ISO 898-1 and SAE J429. Instant lookup.">
+<meta property="og:description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition, plus lug nut torque for 102 vehicles. ISO 898-1 and SAE J429.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://torquespec.org/">
 <meta property="og:site_name" content="TorqueSpec">
@@ -30,7 +30,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Bolt Torque Specs: M3–M64 &amp; SAE #6–1-1/2&quot; | TorqueSpec">
-<meta name="twitter:description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition. ISO 898-1 and SAE J429. Instant lookup.">
+<meta name="twitter:description" content="Free bolt torque database. Metric M3–M64 and imperial #6–1-1/2&quot; values by grade and surface condition, plus lug nut torque for 102 vehicles. ISO 898-1 and SAE J429.">
 <meta name="twitter:image" content="https://torquespec.org/og-default.png">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4PS6758JH"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-C4PS6758JH');</script>
@@ -56,6 +56,7 @@
     <nav class="hidden md:flex items-center gap-5 text-sm">
       <a href="/metric/" class="text-gray-600 hover:text-gray-900">Metric</a>
       <a href="/imperial/" class="text-gray-600 hover:text-gray-900">Imperial</a>
+      <a href="/lug-nuts/" class="text-gray-600 hover:text-gray-900">Lug Nuts</a>
       <a href="/calculator/" class="text-gray-600 hover:text-gray-900">Calculator</a>
       <div class="relative group">
         <button class="text-gray-600 hover:text-gray-900 flex items-center gap-1">More <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
@@ -78,6 +79,7 @@
     <div class="px-4 py-3 space-y-2">
       <a href="/metric/" class="block py-2 text-gray-700 font-medium">Metric Bolts</a>
       <a href="/imperial/" class="block py-2 text-gray-700 font-medium">Imperial Bolts</a>
+      <a href="/lug-nuts/" class="block py-2 text-gray-700 font-medium">Lug Nut Torque</a>
       <a href="/calculator/" class="block py-2 text-gray-700 font-medium">Calculator</a>
       <div class="border-t border-gray-100 my-1"></div>
       <a href="/compare/" class="block py-2 text-gray-600">Comparisons</a>
@@ -120,6 +122,10 @@
     <div class="flex items-center gap-2">
       <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
       <span>Coarse &amp; fine thread</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+      <span><strong>102</strong> vehicle lug nut specs</span>
     </div>
   </div>
 </section>
@@ -179,6 +185,59 @@
 </section>
 
 <section class="px-4 py-12">
+  <div class="max-w-7xl mx-auto">
+    <a href="/lug-nuts/" class="block bg-gradient-to-b from-emerald-600 to-emerald-700 text-white rounded-xl p-8 mb-8 hover:shadow-lg transition-all">
+      <h2 class="text-2xl font-bold mb-2">Lug Nut Torque by Vehicle</h2>
+      <p class="text-emerald-100 mb-4 max-w-2xl">Torque, bolt pattern, thread size, socket and tightening sequence for 102 models across 19 makes — Toyota, Honda, Ford, Chevrolet, Tesla, Ram and more.</p>
+      <span class="font-medium">Find your vehicle →</span>
+    </a>
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Torque Specs by Component</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="/torque/oil-drain-plug/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Oil drain plug</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">20–30 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">by make &amp; thread size</div>
+</a><a href="/torque/spark-plug/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Spark plug</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">18–26 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">14 mm gasket seat</div>
+</a><a href="/torque/valve-cover/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Valve cover</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">89 in·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">7.4 ft·lbs · 10 N·m</div>
+</a><a href="/torque/axle-nut/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Axle nut</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">130–230 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">staked, single use</div>
+</a><a href="/torque/caliper-bolt/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Caliper bolt</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">25 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">guide pin · bracket 85</div>
+</a><a href="/torque/head-bolt/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Head bolt</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">Staged</div>
+  <div class="text-xs text-gray-400 mt-1">torque-to-yield explained</div>
+</a><a href="/torque/flywheel/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Flywheel bolt</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">45–85 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">star sequence</div>
+</a><a href="/torque/rocker-arm/" class="bg-white rounded-lg border border-gray-200 p-4 hover:border-emerald-500 hover:shadow-md transition-all">
+  <div class="font-bold text-gray-900">Rocker arm</div>
+  <div class="text-emerald-600 text-lg font-bold mt-1">15–25 ft·lbs</div>
+  <div class="text-xs text-gray-400 mt-1">shaft &amp; pedestal</div>
+</a>
+    </div>
+  </div>
+</section>
+
+<section class="px-4 py-12 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Unit Converters</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4"><a href="/convert/nm-to-ft-lbs/" class="block bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:border-emerald-300 hover:shadow-md transition-all"><h3 class="font-bold text-gray-900">Nm to Ft Lbs</h3><p class="text-sm text-gray-500 mt-1">100 N·m = 73.8 ft·lbs</p></a><a href="/convert/inch-pounds-to-foot-pounds/" class="block bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:border-emerald-300 hover:shadow-md transition-all"><h3 class="font-bold text-gray-900">Inch Pounds to Foot Pounds</h3><p class="text-sm text-gray-500 mt-1">100 in·lbs = 8.33 ft·lbs</p></a><a href="/convert/" class="block bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:border-emerald-300 hover:shadow-md transition-all"><h3 class="font-bold text-gray-900">All Converters</h3><p class="text-sm text-gray-500 mt-1">N·m, ft·lbs, in·lbs and kgf·cm</p></a></div>
+  </div>
+</section>
+
+<section class="px-4 py-12">
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">How TorqueSpec Works</h2>
     <div class="space-y-6">
@@ -232,6 +291,7 @@
       <div>
         <h4 class="text-white font-medium mb-3">Reference</h4>
         <div class="space-y-1 text-sm">
+          <a href="/lug-nuts/" class="block hover:text-white">Lug Nut Torque</a>
           <a href="/compare/" class="block hover:text-white">Comparisons</a>
           <a href="/guides/" class="block hover:text-white">Application Guides</a>
           <a href="/about/" class="block hover:text-white">How We Calculate</a>

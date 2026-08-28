@@ -56,6 +56,7 @@
     <nav class="hidden md:flex items-center gap-5 text-sm">
       <a href="/metric/" class="text-gray-600 hover:text-gray-900">Metric</a>
       <a href="/imperial/" class="text-gray-600 hover:text-gray-900">Imperial</a>
+      <a href="/lug-nuts/" class="text-gray-600 hover:text-gray-900">Lug Nuts</a>
       <a href="/calculator/" class="text-gray-600 hover:text-gray-900">Calculator</a>
       <div class="relative group">
         <button class="text-gray-600 hover:text-gray-900 flex items-center gap-1">More <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
@@ -78,6 +79,7 @@
     <div class="px-4 py-3 space-y-2">
       <a href="/metric/" class="block py-2 text-gray-700 font-medium">Metric Bolts</a>
       <a href="/imperial/" class="block py-2 text-gray-700 font-medium">Imperial Bolts</a>
+      <a href="/lug-nuts/" class="block py-2 text-gray-700 font-medium">Lug Nut Torque</a>
       <a href="/calculator/" class="block py-2 text-gray-700 font-medium">Calculator</a>
       <div class="border-t border-gray-100 my-1"></div>
       <a href="/compare/" class="block py-2 text-gray-600">Comparisons</a>
@@ -177,7 +179,7 @@
 
     <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
       <h2 class="text-xl font-bold text-gray-900 mb-4">Validation</h2>
-      <p class="text-gray-600 mb-3">Every value on this site is calculated, not transcribed: T = K &times; D &times; F, with F = 0.75 &times; proof stress &times; tensile stress area. Published torque tables do not all share that basis, so we cross-reference against them to check our arithmetic and our inputs &mdash; not to match their absolute numbers.</p>
+      <p class="text-gray-600 mb-3">Every bolt size-and-grade value on this site is calculated, not transcribed: T = K &times; D &times; F, with F = 0.75 &times; proof stress &times; tensile stress area. Published torque tables do not all share that basis, so we cross-reference against them to check our arithmetic and our inputs &mdash; not to match their absolute numbers.</p>
       <div class="space-y-2 text-gray-600">
         <p>Portland Bolt — manufacturer torque tables for imperial grades</p>
         <p>Fastenal — engineering reference torque data</p>
@@ -187,6 +189,16 @@
       <p class="text-gray-600 mt-3">Where a source shares our preload basis (75% of proof load) and K-factor, our values agree with it to within about 2% &mdash; the residual being rounding and small differences in the stress-area figures used. That is the case for the imperial grades checked against Portland Bolt, Fastenal and Bolt Depot.</p>
           <p class="text-gray-600 mt-3">Where a source uses a different preload basis, the two sets of numbers are not directly comparable and the gap is larger than 2%. Fractory&rsquo;s metric tables are the clearest example: they are not built on the same 75%-of-proof assumption we use, so their absolute N&middot;m figures sit on a different footing than ours even when the formula and K-factor agree. We use them to check the shape of the data &mdash; the ratios between classes, sizes and thread pitches &mdash; rather than as an absolute reference. A difference of that kind reflects a stated modelling assumption, not an error in either table.</p>
           <p class="text-gray-600 mt-3">Two further points worth stating plainly. Proof stress is tiered by diameter in both ISO 898-1 and SAE J429 &mdash; Class 8.8 is 580 MPa up to M16 and 600 MPa from M18 up, and SAE Grade 2 and Grade 5 each step down above a threshold diameter &mdash; and we apply the tier that belongs to each size. And the K-factor is the dominant source of real-world scatter: it is an empirical friction estimate, and actual joints routinely vary by more than the 2% figure above. For any critical joint, verify against the manufacturer&rsquo;s specification or measure preload directly.</p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6" id="vehicle-data">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Vehicle and Component Data</h2>
+      <p class="text-gray-600 mb-3">The <a href="/lug-nuts/" class="text-emerald-600 hover:text-emerald-800 font-medium">lug nut torque</a> and <a href="/torque/" class="text-emerald-600 hover:text-emerald-800 font-medium">component torque</a> pages work differently from the bolt charts, and it is worth being explicit about how.</p>
+      <div class="space-y-4 text-gray-600">
+        <p><strong class="text-gray-900">These figures are manufacturer specifications, not calculations.</strong> A wheel joint, a spark plug seat and an aluminium oil pan are not the simple steel-on-steel joints that T = K &times; D &times; F models. The controlling limit is usually the softer component or a sealing element, so the formula would give the wrong answer. Those pages report what vehicle manufacturers publish.</p>
+        <p><strong class="text-gray-900">They are keyed to a generation, not a single model year.</strong> Each vehicle page names the generation and year range the figure applies to, and lists earlier generations separately where the pattern, thread or torque changed. Trim levels with different wheel packages can still differ.</p>
+        <p><strong class="text-gray-900">Verify against your own manual before relying on them.</strong> Manufacturers revise specifications, and a vehicle fitted with aftermarket wheels or replacement hardware may need a different figure entirely. Treat these pages as a fast reference and a cross-check &mdash; not as a replacement for the owner&rsquo;s manual or service manual for your specific vehicle.</p>
+      </div>
     </div>
 
     <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
@@ -241,6 +253,7 @@
       <div>
         <h4 class="text-white font-medium mb-3">Reference</h4>
         <div class="space-y-1 text-sm">
+          <a href="/lug-nuts/" class="block hover:text-white">Lug Nut Torque</a>
           <a href="/compare/" class="block hover:text-white">Comparisons</a>
           <a href="/guides/" class="block hover:text-white">Application Guides</a>
           <a href="/about/" class="block hover:text-white">How We Calculate</a>

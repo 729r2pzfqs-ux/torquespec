@@ -7,6 +7,8 @@
 - [Homepage](https://torquespec.org/): Search all bolt torque specifications
 - [Metric Bolts](https://torquespec.org/metric/): ISO metric bolt torque chart — M3 to M64, classes 4.6–12.9
 - [Imperial Bolts](https://torquespec.org/imperial/): SAE imperial bolt torque chart — #6 to 1-1/2", grades 2, 5, 8
+- [Lug Nut Torque by Vehicle](https://torquespec.org/lug-nuts/): Wheel torque, bolt pattern, thread and socket for 102 models
+- [Component Torque Specs](https://torquespec.org/torque/): Oil drain plug, spark plug, head bolt, valve cover, axle nut, caliper, flywheel, rocker arm
 - [Torque Calculator](https://torquespec.org/calculator/): Interactive bolt torque calculator with all unit conversions
 - [About / Methodology](https://torquespec.org/about/): How we calculate — formula, standards, K-factor table, validation
 
@@ -277,6 +279,216 @@
 - [9/16" Grade 5](https://torquespec.org/imperial/9-16-grade-5/): 108.8 ft·lbs / 147.5 N·m (dry, UNC thread)
 - [9/16" Grade 8](https://torquespec.org/imperial/9-16-grade-8/): 153.6 ft·lbs / 208.3 N·m (dry, UNC thread)
 
+## Lug Nut Torque by Vehicle
+
+- [Lug Nut Torque Hub](https://torquespec.org/lug-nuts/): Searchable index — 102 models across 19 makes
+
+### Toyota
+
+- [Toyota lug nut torque](https://torquespec.org/lug-nuts/toyota/): all 9 models
+- [Toyota Camry](https://torquespec.org/lug-nuts/toyota/camry/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota Corolla](https://torquespec.org/lug-nuts/toyota/corolla/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota RAV4](https://torquespec.org/lug-nuts/toyota/rav4/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota Highlander](https://torquespec.org/lug-nuts/toyota/highlander/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota Tacoma](https://torquespec.org/lug-nuts/toyota/tacoma/): 83 ft·lbs / 113 N·m · 6×139.7 · M12×1.5 · 21 mm socket
+- [Toyota Tundra](https://torquespec.org/lug-nuts/toyota/tundra/): 97 ft·lbs / 132 N·m · 5×150 · M14×1.5 · 22 mm socket
+- [Toyota 4Runner](https://torquespec.org/lug-nuts/toyota/4runner/): 83 ft·lbs / 113 N·m · 6×139.7 · M12×1.5 · 21 mm socket
+- [Toyota Prius](https://torquespec.org/lug-nuts/toyota/prius/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota Sienna](https://torquespec.org/lug-nuts/toyota/sienna/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+
+### Honda
+
+- [Honda lug nut torque](https://torquespec.org/lug-nuts/honda/): all 7 models
+- [Honda Civic](https://torquespec.org/lug-nuts/honda/civic/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Honda Accord](https://torquespec.org/lug-nuts/honda/accord/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Honda CR-V](https://torquespec.org/lug-nuts/honda/cr-v/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Honda Pilot](https://torquespec.org/lug-nuts/honda/pilot/): 94 ft·lbs / 127 N·m · 5×120 · M12×1.5 · 19 mm socket
+- [Honda HR-V](https://torquespec.org/lug-nuts/honda/hr-v/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Honda Odyssey](https://torquespec.org/lug-nuts/honda/odyssey/): 94 ft·lbs / 127 N·m · 5×120 · M12×1.5 · 19 mm socket
+- [Honda Ridgeline](https://torquespec.org/lug-nuts/honda/ridgeline/): 94 ft·lbs / 127 N·m · 5×120 · M12×1.5 · 19 mm socket
+
+### Ford
+
+- [Ford lug nut torque](https://torquespec.org/lug-nuts/ford/): all 8 models
+- [Ford F-150](https://torquespec.org/lug-nuts/ford/f-150/): 150 ft·lbs / 203 N·m · 6×135 · M14×1.5 · 22 mm socket
+- [Ford F-250](https://torquespec.org/lug-nuts/ford/f-250/): 165 ft·lbs / 224 N·m · 8×170 · M14×1.5 · 22 mm socket
+- [Ford Explorer](https://torquespec.org/lug-nuts/ford/explorer/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Ford Escape](https://torquespec.org/lug-nuts/ford/escape/): 100 ft·lbs / 136 N·m · 5×108 · M12×1.5 · 19 mm socket
+- [Ford Mustang](https://torquespec.org/lug-nuts/ford/mustang/): 150 ft·lbs / 203 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Ford Bronco](https://torquespec.org/lug-nuts/ford/bronco/): 150 ft·lbs / 203 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+- [Ford Edge](https://torquespec.org/lug-nuts/ford/edge/): 150 ft·lbs / 203 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Ford Expedition](https://torquespec.org/lug-nuts/ford/expedition/): 150 ft·lbs / 203 N·m · 6×135 · M14×1.5 · 22 mm socket
+
+### Chevrolet
+
+- [Chevrolet lug nut torque](https://torquespec.org/lug-nuts/chevrolet/): all 8 models
+- [Chevrolet Silverado 1500](https://torquespec.org/lug-nuts/chevrolet/silverado/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+- [Chevrolet Equinox](https://torquespec.org/lug-nuts/chevrolet/equinox/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 19 mm socket
+- [Chevrolet Tahoe](https://torquespec.org/lug-nuts/chevrolet/tahoe/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+- [Chevrolet Traverse](https://torquespec.org/lug-nuts/chevrolet/traverse/): 100 ft·lbs / 136 N·m · 5×120 · M14×1.5 · 19 mm socket
+- [Chevrolet Malibu](https://torquespec.org/lug-nuts/chevrolet/malibu/): 100 ft·lbs / 136 N·m · 5×115 · M12×1.5 · 19 mm socket
+- [Chevrolet Colorado](https://torquespec.org/lug-nuts/chevrolet/colorado/): 140 ft·lbs / 190 N·m · 6×120 · M14×1.5 · 22 mm socket
+- [Chevrolet Camaro](https://torquespec.org/lug-nuts/chevrolet/camaro/): 140 ft·lbs / 190 N·m · 5×120 · M14×1.5 · 19 mm socket
+- [Chevrolet Suburban](https://torquespec.org/lug-nuts/chevrolet/suburban/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+
+### Nissan
+
+- [Nissan lug nut torque](https://torquespec.org/lug-nuts/nissan/): all 7 models
+- [Nissan Altima](https://torquespec.org/lug-nuts/nissan/altima/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Rogue](https://torquespec.org/lug-nuts/nissan/rogue/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Sentra](https://torquespec.org/lug-nuts/nissan/sentra/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Pathfinder](https://torquespec.org/lug-nuts/nissan/pathfinder/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Frontier](https://torquespec.org/lug-nuts/nissan/frontier/): 98 ft·lbs / 133 N·m · 6×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Maxima](https://torquespec.org/lug-nuts/nissan/maxima/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+- [Nissan Murano](https://torquespec.org/lug-nuts/nissan/murano/): 80 ft·lbs / 108 N·m · 5×114.3 · M12×1.25 · 21 mm socket
+
+### Hyundai
+
+- [Hyundai lug nut torque](https://torquespec.org/lug-nuts/hyundai/): all 6 models
+- [Hyundai Elantra](https://torquespec.org/lug-nuts/hyundai/elantra/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Hyundai Tucson](https://torquespec.org/lug-nuts/hyundai/tucson/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Hyundai Santa Fe](https://torquespec.org/lug-nuts/hyundai/santa-fe/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Hyundai Sonata](https://torquespec.org/lug-nuts/hyundai/sonata/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Hyundai Kona](https://torquespec.org/lug-nuts/hyundai/kona/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Hyundai Palisade](https://torquespec.org/lug-nuts/hyundai/palisade/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+
+### Kia
+
+- [Kia lug nut torque](https://torquespec.org/lug-nuts/kia/): all 6 models
+- [Kia Forte](https://torquespec.org/lug-nuts/kia/forte/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Kia Sportage](https://torquespec.org/lug-nuts/kia/sportage/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Kia Telluride](https://torquespec.org/lug-nuts/kia/telluride/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Kia Sorento](https://torquespec.org/lug-nuts/kia/sorento/): 79–94 ft·lbs / 107–127 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Kia Soul](https://torquespec.org/lug-nuts/kia/soul/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Kia Seltos](https://torquespec.org/lug-nuts/kia/seltos/): 65–80 ft·lbs / 88–108 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+
+### Subaru
+
+- [Subaru lug nut torque](https://torquespec.org/lug-nuts/subaru/): all 6 models
+- [Subaru Outback](https://torquespec.org/lug-nuts/subaru/outback/): 89 ft·lbs / 121 N·m · 5×114.3 · M12×1.25 · 19 mm socket
+- [Subaru Forester](https://torquespec.org/lug-nuts/subaru/forester/): 89 ft·lbs / 121 N·m · 5×114.3 · M12×1.25 · 19 mm socket
+- [Subaru Crosstrek](https://torquespec.org/lug-nuts/subaru/crosstrek/): 89 ft·lbs / 121 N·m · 5×100 · M12×1.25 · 19 mm socket
+- [Subaru Impreza](https://torquespec.org/lug-nuts/subaru/impreza/): 89 ft·lbs / 121 N·m · 5×100 · M12×1.25 · 19 mm socket
+- [Subaru WRX](https://torquespec.org/lug-nuts/subaru/wrx/): 89 ft·lbs / 121 N·m · 5×114.3 · M12×1.25 · 19 mm socket
+- [Subaru Ascent](https://torquespec.org/lug-nuts/subaru/ascent/): 89 ft·lbs / 121 N·m · 5×114.3 · M12×1.25 · 19 mm socket
+
+### Jeep
+
+- [Jeep lug nut torque](https://torquespec.org/lug-nuts/jeep/): all 5 models
+- [Jeep Wrangler](https://torquespec.org/lug-nuts/jeep/wrangler/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
+- [Jeep Grand Cherokee](https://torquespec.org/lug-nuts/jeep/grand-cherokee/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
+- [Jeep Cherokee](https://torquespec.org/lug-nuts/jeep/cherokee/): 110 ft·lbs / 149 N·m · 5×110 · M12×1.5 · 19 mm socket
+- [Jeep Compass](https://torquespec.org/lug-nuts/jeep/compass/): 110 ft·lbs / 149 N·m · 5×110 · M12×1.5 · 19 mm socket
+- [Jeep Gladiator](https://torquespec.org/lug-nuts/jeep/gladiator/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
+
+### BMW
+
+- [BMW lug nut torque](https://torquespec.org/lug-nuts/bmw/): all 4 models
+- [BMW 3 Series](https://torquespec.org/lug-nuts/bmw/3-series/): 103 ft·lbs / 140 N·m · 5×112 · M14×1.25 · 17 mm socket
+- [BMW 5 Series](https://torquespec.org/lug-nuts/bmw/5-series/): 103 ft·lbs / 140 N·m · 5×112 · M14×1.25 · 17 mm socket
+- [BMW X3](https://torquespec.org/lug-nuts/bmw/x3/): 103 ft·lbs / 140 N·m · 5×112 · M14×1.25 · 17 mm socket
+- [BMW X5](https://torquespec.org/lug-nuts/bmw/x5/): 103 ft·lbs / 140 N·m · 5×112 · M14×1.25 · 17 mm socket
+
+### Mercedes-Benz
+
+- [Mercedes-Benz lug nut torque](https://torquespec.org/lug-nuts/mercedes/): all 4 models
+- [Mercedes-Benz C-Class](https://torquespec.org/lug-nuts/mercedes/c-class/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Mercedes-Benz E-Class](https://torquespec.org/lug-nuts/mercedes/e-class/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Mercedes-Benz GLC](https://torquespec.org/lug-nuts/mercedes/glc/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Mercedes-Benz GLE](https://torquespec.org/lug-nuts/mercedes/gle/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
+
+### Volkswagen
+
+- [Volkswagen lug nut torque](https://torquespec.org/lug-nuts/volkswagen/): all 5 models
+- [Volkswagen Jetta](https://torquespec.org/lug-nuts/volkswagen/jetta/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Volkswagen Tiguan](https://torquespec.org/lug-nuts/volkswagen/tiguan/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Volkswagen Atlas](https://torquespec.org/lug-nuts/volkswagen/atlas/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Volkswagen Golf](https://torquespec.org/lug-nuts/volkswagen/golf/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Volkswagen Passat](https://torquespec.org/lug-nuts/volkswagen/passat/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+
+### Mazda
+
+- [Mazda lug nut torque](https://torquespec.org/lug-nuts/mazda/): all 5 models
+- [Mazda CX-5](https://torquespec.org/lug-nuts/mazda/cx-5/): 65–87 ft·lbs / 88–118 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Mazda Mazda3](https://torquespec.org/lug-nuts/mazda/mazda3/): 65–87 ft·lbs / 88–118 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Mazda CX-30](https://torquespec.org/lug-nuts/mazda/cx-30/): 65–87 ft·lbs / 88–118 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Mazda CX-50](https://torquespec.org/lug-nuts/mazda/cx-50/): 65–87 ft·lbs / 88–118 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+- [Mazda MX-5 Miata](https://torquespec.org/lug-nuts/mazda/mx-5-miata/): 65–87 ft·lbs / 88–118 N·m · 5×114.3 · M12×1.5 · 19 mm socket
+
+### Tesla
+
+- [Tesla lug nut torque](https://torquespec.org/lug-nuts/tesla/): all 4 models
+- [Tesla Model 3](https://torquespec.org/lug-nuts/tesla/model-3/): 129 ft·lbs / 175 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Tesla Model Y](https://torquespec.org/lug-nuts/tesla/model-y/): 129 ft·lbs / 175 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Tesla Model S](https://torquespec.org/lug-nuts/tesla/model-s/): 129 ft·lbs / 175 N·m · 5×120 · M14×1.5 · 21 mm socket
+- [Tesla Model X](https://torquespec.org/lug-nuts/tesla/model-x/): 129 ft·lbs / 175 N·m · 5×120 · M14×1.5 · 21 mm socket
+
+### Ram
+
+- [Ram lug nut torque](https://torquespec.org/lug-nuts/ram/): all 3 models
+- [Ram 1500](https://torquespec.org/lug-nuts/ram/1500/): 130 ft·lbs / 176 N·m · 5×139.7 · M14×1.5 · 22 mm socket
+- [Ram 2500](https://torquespec.org/lug-nuts/ram/2500/): 145 ft·lbs / 197 N·m · 8×165.1 · M14×1.5 · 22 mm socket
+- [Ram 3500](https://torquespec.org/lug-nuts/ram/3500/): 145 ft·lbs / 197 N·m · 8×165.1 · M14×1.5 · 22 mm socket
+
+### GMC
+
+- [GMC lug nut torque](https://torquespec.org/lug-nuts/gmc/): all 4 models
+- [GMC Sierra](https://torquespec.org/lug-nuts/gmc/sierra/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+- [GMC Acadia](https://torquespec.org/lug-nuts/gmc/acadia/): 100 ft·lbs / 136 N·m · 5×120 · M14×1.5 · 19 mm socket
+- [GMC Terrain](https://torquespec.org/lug-nuts/gmc/terrain/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 19 mm socket
+- [GMC Yukon](https://torquespec.org/lug-nuts/gmc/yukon/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
+
+### Dodge
+
+- [Dodge lug nut torque](https://torquespec.org/lug-nuts/dodge/): all 3 models
+- [Dodge Charger](https://torquespec.org/lug-nuts/dodge/charger/): 130 ft·lbs / 176 N·m · 5×115 · M14×1.5 · 22 mm socket
+- [Dodge Challenger](https://torquespec.org/lug-nuts/dodge/challenger/): 130 ft·lbs / 176 N·m · 5×115 · M14×1.5 · 22 mm socket
+- [Dodge Durango](https://torquespec.org/lug-nuts/dodge/durango/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
+
+### Lexus
+
+- [Lexus lug nut torque](https://torquespec.org/lug-nuts/lexus/): all 4 models
+- [Lexus RX](https://torquespec.org/lug-nuts/lexus/rx/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Lexus ES](https://torquespec.org/lug-nuts/lexus/es/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Lexus NX](https://torquespec.org/lug-nuts/lexus/nx/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Lexus IS](https://torquespec.org/lug-nuts/lexus/is/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+
+### Audi
+
+- [Audi lug nut torque](https://torquespec.org/lug-nuts/audi/): all 4 models
+- [Audi A4](https://torquespec.org/lug-nuts/audi/a4/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Audi Q5](https://torquespec.org/lug-nuts/audi/q5/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Audi A3](https://torquespec.org/lug-nuts/audi/a3/): 89 ft·lbs / 121 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Audi Q7](https://torquespec.org/lug-nuts/audi/q7/): 103 ft·lbs / 140 N·m · 5×112 · M14×1.5 · 17 mm socket
+
+## Component Torque Specs
+
+- [Component Torque Hub](https://torquespec.org/torque/): Index of component and bolt-size torque pages
+- [Oil Drain Plug Torque](https://torquespec.org/torque/oil-drain-plug/): 20–30 ft·lbs typical; by make and thread size
+- [Spark Plug Torque](https://torquespec.org/torque/spark-plug/): By thread size and seat type; 14 mm gasket seat 18–26 ft·lbs
+- [Head Bolt Torque](https://torquespec.org/torque/head-bolt/): Staged sequences and torque-to-yield bolts explained
+- [Valve Cover Bolt Torque](https://torquespec.org/torque/valve-cover/): 60–106 in·lbs by engine family
+- [Axle Nut Torque](https://torquespec.org/torque/axle-nut/): 130–230 ft·lbs by manufacturer; staked and stretch nuts
+- [Brake Caliper Bolt Torque](https://torquespec.org/torque/caliper-bolt/): Guide pins 20–31 ft·lbs, brackets 70–130 ft·lbs
+- [Flywheel Bolt Torque](https://torquespec.org/torque/flywheel/): 45–85 ft·lbs by engine family
+- [Rocker Arm Torque](https://torquespec.org/torque/rocker-arm/): 15–25 ft·lbs; shaft, pedestal and adjustable designs
+
+## Grade and Class Charts
+
+- [Grade 2 Torque Chart](https://torquespec.org/imperial/grade-2/): All imperial sizes, SAE Grade 2
+- [Grade 5 Torque Chart](https://torquespec.org/imperial/grade-5/): All imperial sizes, SAE Grade 5
+- [Grade 8 Torque Chart](https://torquespec.org/imperial/grade-8/): All imperial sizes, SAE Grade 8
+- [Class 8.8 Torque Chart](https://torquespec.org/metric/class-8.8/): All metric sizes, ISO class 8.8
+- [Class 10.9 Torque Chart](https://torquespec.org/metric/class-10.9/): All metric sizes, ISO class 10.9
+- [Class 12.9 Torque Chart](https://torquespec.org/metric/class-12.9/): All metric sizes, ISO class 12.9
+
+## Unit Converters
+
+- [Nm to Ft Lbs](https://torquespec.org/convert/nm-to-ft-lbs/): ft·lbs = N·m × 0.7375621; 100 N·m = 73.8 ft·lbs
+- [Inch Pounds to Foot Pounds](https://torquespec.org/convert/inch-pounds-to-foot-pounds/): ft·lbs = in·lbs ÷ 12; 100 in·lbs = 8.33 ft·lbs
+- [Ft Lbs to Nm](https://torquespec.org/convert/ft-lbs-to-nm/): N·m = ft·lbs × 1.3558179
+- [Nm to In Lbs](https://torquespec.org/convert/nm-to-in-lbs/): in·lbs = N·m × 8.8507458
+
 ## Data Coverage
 
 - **Metric:** 25 sizes (M3–M64) × 9 property classes (4.6, 4.8, 5.6, 5.8, 6.8, 8.8, 9.8, 10.9, 12.9) = 210 combinations
@@ -284,7 +496,11 @@
 - **Surface conditions:** 6 per combination (dry K=0.20, oiled K=0.15, zinc plated K=0.18, waxed K=0.10, MoS₂ K=0.12, galvanized K=0.25)
 - **Thread types:** Coarse + fine (metric), UNC + UNF (imperial)
 - **Units:** N·m, ft·lbs, in·lbs, kgf·cm
+- **Vehicle lug nuts:** 102 models across 19 makes — torque, bolt pattern, thread size, socket, lug count and generation history
+- **Components:** 8 component torque pages (oil drain plug, spark plug, head bolt, valve cover, axle nut, caliper bolt, flywheel, rocker arm)
 
 ## Methodology
 
-All torque values are calculated, not copied. Formula: T = K × D × F, where F = 0.75 × proof_stress × stress_area. Proof stress from ISO 898-1 (metric) and SAE J429 (imperial). Stress areas from ISO 261/262 and ASME B1.1. K-factors from VDI 2230. Cross-referenced against Portland Bolt, Fastenal, Bolt Depot and Fractory reference tables. Where a source shares our 75%-of-proof preload basis and K-factor, agreement is within about 2%; Fractory’s metric tables use a different preload basis, so their absolute values sit on a different footing and are used to check ratios rather than absolute numbers. Proof stress is applied per diameter tier (Class 8.8: 580 MPa ≤M16, 600 MPa M18+; SAE Grade 2 and Grade 5 step down above their threshold diameters).
+Bolt size-and-grade torque values are calculated, not copied. Formula: T = K × D × F, where F = 0.75 × proof_stress × stress_area. Proof stress from ISO 898-1 (metric) and SAE J429 (imperial). Stress areas from ISO 261/262 and ASME B1.1. K-factors from VDI 2230. Cross-referenced against Portland Bolt, Fastenal, Bolt Depot and Fractory reference tables. Where a source shares our 75%-of-proof preload basis and K-factor, agreement is within about 2%; Fractory’s metric tables use a different preload basis, so their absolute values sit on a different footing and are used to check ratios rather than absolute numbers. Proof stress is applied per diameter tier (Class 8.8: 580 MPa ≤M16, 600 MPa M18+; SAE Grade 2 and Grade 5 step down above their threshold diameters).
+
+Vehicle lug nut and component torque pages are different in kind: those figures are manufacturer specifications, not outputs of T = K × D × F. Real wheel, spark plug and oil pan joints are limited by the softer component or a sealing element rather than by the bolt, so the general formula does not apply. Each vehicle page names the generation and year range its figure covers and lists earlier generations where the pattern, thread or torque changed.
