@@ -58,7 +58,7 @@
       <a href="/lug-nuts/" class="text-gray-600 hover:text-gray-900">Lug Nuts</a>
       <a href="/calculator/" class="text-gray-600 hover:text-gray-900">Calculator</a>
       <div class="relative group">
-        <button class="text-gray-600 hover:text-gray-900 flex items-center gap-1">More <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <button class="text-gray-600 hover:text-gray-900 flex items-center gap-1" aria-haspopup="true">More <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
         <div class="absolute right-0 top-full mt-1 w-56 bg-white rounded-xl shadow-lg border border-gray-200 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
           <a href="/compare/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Comparisons</a>
           <a href="/convert/" class="block px-4 py-2 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700">Unit Converters</a>
@@ -70,7 +70,7 @@
         </div>
       </div>
     </nav>
-    <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden p-2">
+    <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden p-2" aria-label="Open menu" aria-controls="mobileMenu">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
     </button>
   </div>
@@ -96,7 +96,7 @@
     <h1 class="text-4xl md:text-5xl font-bold mb-4">Bolt Torque Specifications</h1>
     <p class="text-emerald-100 text-lg mb-8 max-w-2xl mx-auto">Look up torque values for any bolt size and grade. Calculated from ISO 898-1 and SAE J429 standards.</p>
     <div class="relative max-w-xl mx-auto">
-      <input type="text" id="searchInput" placeholder="Search — e.g. M10 8.8 or 1/2 grade 5"
+      <input type="search" id="searchInput" aria-label="Search bolt sizes, grades and vehicles" placeholder="Search — e.g. M10 8.8, 1/2 grade 5 or Camry"
         class="w-full px-6 py-4 rounded-xl text-gray-900 text-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
         autocomplete="off">
       <div id="searchResults" class="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-gray-200 max-h-80 overflow-y-auto hidden z-50"></div>
@@ -310,23 +310,40 @@ const bolts = [{"type": "metric", "label": "M10 Class 10.9", "size": "M10", "cla
 const input = document.getElementById('searchInput');
 const results = document.getElementById('searchResults');
 
+const vehicles=[{"n": "Toyota Camry", "u": "/lug-nuts/toyota/camry/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Toyota Corolla", "u": "/lug-nuts/toyota/corolla/", "t": "76 ft·lbs", "p": "5×100"}, {"n": "Toyota RAV4", "u": "/lug-nuts/toyota/rav4/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Toyota Highlander", "u": "/lug-nuts/toyota/highlander/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Toyota Tacoma", "u": "/lug-nuts/toyota/tacoma/", "t": "83 ft·lbs", "p": "6×139.7"}, {"n": "Toyota Tundra", "u": "/lug-nuts/toyota/tundra/", "t": "97 ft·lbs", "p": "5×150"}, {"n": "Toyota 4Runner", "u": "/lug-nuts/toyota/4runner/", "t": "83 ft·lbs", "p": "6×139.7"}, {"n": "Toyota Prius", "u": "/lug-nuts/toyota/prius/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Toyota Sienna", "u": "/lug-nuts/toyota/sienna/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Honda Civic", "u": "/lug-nuts/honda/civic/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Honda Accord", "u": "/lug-nuts/honda/accord/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Honda CR-V", "u": "/lug-nuts/honda/cr-v/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Honda Pilot", "u": "/lug-nuts/honda/pilot/", "t": "94 ft·lbs", "p": "5×120"}, {"n": "Honda HR-V", "u": "/lug-nuts/honda/hr-v/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Honda Odyssey", "u": "/lug-nuts/honda/odyssey/", "t": "94 ft·lbs", "p": "5×120"}, {"n": "Honda Ridgeline", "u": "/lug-nuts/honda/ridgeline/", "t": "94 ft·lbs", "p": "5×120"}, {"n": "Ford F-150", "u": "/lug-nuts/ford/f-150/", "t": "150 ft·lbs", "p": "6×135"}, {"n": "Ford F-250", "u": "/lug-nuts/ford/f-250/", "t": "165 ft·lbs", "p": "8×170"}, {"n": "Ford Explorer", "u": "/lug-nuts/ford/explorer/", "t": "150 ft·lbs", "p": "5×114.3"}, {"n": "Ford Escape", "u": "/lug-nuts/ford/escape/", "t": "100 ft·lbs", "p": "5×108"}, {"n": "Ford Mustang", "u": "/lug-nuts/ford/mustang/", "t": "150 ft·lbs", "p": "5×114.3"}, {"n": "Ford Bronco", "u": "/lug-nuts/ford/bronco/", "t": "150 ft·lbs", "p": "6×139.7"}, {"n": "Ford Edge", "u": "/lug-nuts/ford/edge/", "t": "150 ft·lbs", "p": "5×114.3"}, {"n": "Ford Expedition", "u": "/lug-nuts/ford/expedition/", "t": "150 ft·lbs", "p": "6×135"}, {"n": "Chevrolet Silverado 1500", "u": "/lug-nuts/chevrolet/silverado/", "t": "140 ft·lbs", "p": "6×139.7"}, {"n": "Chevrolet Equinox", "u": "/lug-nuts/chevrolet/equinox/", "t": "100 ft·lbs", "p": "5×115"}, {"n": "Chevrolet Tahoe", "u": "/lug-nuts/chevrolet/tahoe/", "t": "140 ft·lbs", "p": "6×139.7"}, {"n": "Chevrolet Traverse", "u": "/lug-nuts/chevrolet/traverse/", "t": "140 ft·lbs", "p": "6×120"}, {"n": "Chevrolet Malibu", "u": "/lug-nuts/chevrolet/malibu/", "t": "100 ft·lbs", "p": "5×115"}, {"n": "Chevrolet Colorado", "u": "/lug-nuts/chevrolet/colorado/", "t": "140 ft·lbs", "p": "6×120"}, {"n": "Chevrolet Camaro", "u": "/lug-nuts/chevrolet/camaro/", "t": "140 ft·lbs", "p": "5×120"}, {"n": "Chevrolet Suburban", "u": "/lug-nuts/chevrolet/suburban/", "t": "140 ft·lbs", "p": "6×139.7"}, {"n": "Nissan Altima", "u": "/lug-nuts/nissan/altima/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Nissan Rogue", "u": "/lug-nuts/nissan/rogue/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Nissan Sentra", "u": "/lug-nuts/nissan/sentra/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Nissan Pathfinder", "u": "/lug-nuts/nissan/pathfinder/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Nissan Frontier", "u": "/lug-nuts/nissan/frontier/", "t": "98 ft·lbs", "p": "6×114.3"}, {"n": "Nissan Maxima", "u": "/lug-nuts/nissan/maxima/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Nissan Murano", "u": "/lug-nuts/nissan/murano/", "t": "80 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Elantra", "u": "/lug-nuts/hyundai/elantra/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Tucson", "u": "/lug-nuts/hyundai/tucson/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Santa Fe", "u": "/lug-nuts/hyundai/santa-fe/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Sonata", "u": "/lug-nuts/hyundai/sonata/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Kona", "u": "/lug-nuts/hyundai/kona/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Hyundai Palisade", "u": "/lug-nuts/hyundai/palisade/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Kia Forte", "u": "/lug-nuts/kia/forte/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Kia Sportage", "u": "/lug-nuts/kia/sportage/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Kia Telluride", "u": "/lug-nuts/kia/telluride/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Kia Sorento", "u": "/lug-nuts/kia/sorento/", "t": "79–94 ft·lbs", "p": "5×114.3"}, {"n": "Kia Soul", "u": "/lug-nuts/kia/soul/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Kia Seltos", "u": "/lug-nuts/kia/seltos/", "t": "65–80 ft·lbs", "p": "5×114.3"}, {"n": "Subaru Outback", "u": "/lug-nuts/subaru/outback/", "t": "89 ft·lbs", "p": "5×114.3"}, {"n": "Subaru Forester", "u": "/lug-nuts/subaru/forester/", "t": "89 ft·lbs", "p": "5×114.3"}, {"n": "Subaru Crosstrek", "u": "/lug-nuts/subaru/crosstrek/", "t": "89 ft·lbs", "p": "5×100"}, {"n": "Subaru Impreza", "u": "/lug-nuts/subaru/impreza/", "t": "89 ft·lbs", "p": "5×100"}, {"n": "Subaru WRX", "u": "/lug-nuts/subaru/wrx/", "t": "89 ft·lbs", "p": "5×114.3"}, {"n": "Subaru Ascent", "u": "/lug-nuts/subaru/ascent/", "t": "89 ft·lbs", "p": "5×114.3"}, {"n": "Jeep Wrangler", "u": "/lug-nuts/jeep/wrangler/", "t": "130 ft·lbs", "p": "5×127"}, {"n": "Jeep Grand Cherokee", "u": "/lug-nuts/jeep/grand-cherokee/", "t": "130 ft·lbs", "p": "5×127"}, {"n": "Jeep Cherokee", "u": "/lug-nuts/jeep/cherokee/", "t": "100 ft·lbs", "p": "5×110"}, {"n": "Jeep Compass", "u": "/lug-nuts/jeep/compass/", "t": "110 ft·lbs", "p": "5×110"}, {"n": "Jeep Gladiator", "u": "/lug-nuts/jeep/gladiator/", "t": "130 ft·lbs", "p": "5×127"}, {"n": "BMW 3 Series", "u": "/lug-nuts/bmw/3-series/", "t": "103 ft·lbs", "p": "5×112"}, {"n": "BMW 5 Series", "u": "/lug-nuts/bmw/5-series/", "t": "103 ft·lbs", "p": "5×112"}, {"n": "BMW X3", "u": "/lug-nuts/bmw/x3/", "t": "103 ft·lbs", "p": "5×112"}, {"n": "BMW X5", "u": "/lug-nuts/bmw/x5/", "t": "103 ft·lbs", "p": "5×112"}, {"n": "Mercedes-Benz C-Class", "u": "/lug-nuts/mercedes/c-class/", "t": "96 ft·lbs", "p": "5×112"}, {"n": "Mercedes-Benz E-Class", "u": "/lug-nuts/mercedes/e-class/", "t": "96 ft·lbs", "p": "5×112"}, {"n": "Mercedes-Benz GLC", "u": "/lug-nuts/mercedes/glc/", "t": "110 ft·lbs", "p": "5×112"}, {"n": "Mercedes-Benz GLE", "u": "/lug-nuts/mercedes/gle/", "t": "110 ft·lbs", "p": "5×112"}, {"n": "Volkswagen Jetta", "u": "/lug-nuts/volkswagen/jetta/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Volkswagen Tiguan", "u": "/lug-nuts/volkswagen/tiguan/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Volkswagen Atlas", "u": "/lug-nuts/volkswagen/atlas/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Volkswagen Golf", "u": "/lug-nuts/volkswagen/golf/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Volkswagen Passat", "u": "/lug-nuts/volkswagen/passat/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Mazda CX-5", "u": "/lug-nuts/mazda/cx-5/", "t": "65–87 ft·lbs", "p": "5×114.3"}, {"n": "Mazda Mazda3", "u": "/lug-nuts/mazda/mazda3/", "t": "65–87 ft·lbs", "p": "5×114.3"}, {"n": "Mazda CX-30", "u": "/lug-nuts/mazda/cx-30/", "t": "65–87 ft·lbs", "p": "5×114.3"}, {"n": "Mazda CX-50", "u": "/lug-nuts/mazda/cx-50/", "t": "65–87 ft·lbs", "p": "5×114.3"}, {"n": "Mazda MX-5 Miata", "u": "/lug-nuts/mazda/mx-5-miata/", "t": "65–87 ft·lbs", "p": "5×114.3"}, {"n": "Tesla Model 3", "u": "/lug-nuts/tesla/model-3/", "t": "129 ft·lbs", "p": "5×114.3"}, {"n": "Tesla Model Y", "u": "/lug-nuts/tesla/model-y/", "t": "129 ft·lbs", "p": "5×114.3"}, {"n": "Tesla Model S", "u": "/lug-nuts/tesla/model-s/", "t": "129 ft·lbs", "p": "5×120"}, {"n": "Tesla Model X", "u": "/lug-nuts/tesla/model-x/", "t": "129 ft·lbs", "p": "5×120"}, {"n": "Ram 1500", "u": "/lug-nuts/ram/1500/", "t": "130 ft·lbs", "p": "5×139.7"}, {"n": "Ram 2500", "u": "/lug-nuts/ram/2500/", "t": "130 ft·lbs", "p": "8×165.1"}, {"n": "Ram 3500", "u": "/lug-nuts/ram/3500/", "t": "130 ft·lbs", "p": "8×165.1"}, {"n": "GMC Sierra", "u": "/lug-nuts/gmc/sierra/", "t": "140 ft·lbs", "p": "6×139.7"}, {"n": "GMC Acadia", "u": "/lug-nuts/gmc/acadia/", "t": "140 ft·lbs", "p": "6×120"}, {"n": "GMC Terrain", "u": "/lug-nuts/gmc/terrain/", "t": "100 ft·lbs", "p": "5×115"}, {"n": "GMC Yukon", "u": "/lug-nuts/gmc/yukon/", "t": "140 ft·lbs", "p": "6×139.7"}, {"n": "Dodge Charger", "u": "/lug-nuts/dodge/charger/", "t": "130 ft·lbs", "p": "5×115"}, {"n": "Dodge Challenger", "u": "/lug-nuts/dodge/challenger/", "t": "130 ft·lbs", "p": "5×115"}, {"n": "Dodge Durango", "u": "/lug-nuts/dodge/durango/", "t": "130 ft·lbs", "p": "5×127"}, {"n": "Lexus RX", "u": "/lug-nuts/lexus/rx/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Lexus ES", "u": "/lug-nuts/lexus/es/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Lexus NX", "u": "/lug-nuts/lexus/nx/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Lexus IS", "u": "/lug-nuts/lexus/is/", "t": "76 ft·lbs", "p": "5×114.3"}, {"n": "Audi A4", "u": "/lug-nuts/audi/a4/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Audi Q5", "u": "/lug-nuts/audi/q5/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Audi A3", "u": "/lug-nuts/audi/a3/", "t": "89 ft·lbs", "p": "5×112"}, {"n": "Audi Q7", "u": "/lug-nuts/audi/q7/", "t": "103 ft·lbs", "p": "5×112"}];
+const entries = bolts.map(b => ({
+  hay: (b.label + ' ' + b.size + ' ' + b.class + ' ' + b.type + (b.type === 'imperial' ? ' grade' : ' class')).toLowerCase(),
+  url: b.url,
+  html: `<div><span class="font-medium text-gray-900">${b.label}</span> <span class="text-xs text-gray-400 ml-1">${b.type}</span></div>
+      <div class="text-sm"><span class="font-bold text-emerald-600">${b.nm} N·m</span> <span class="text-gray-400">/ ${b.ftlbs} ft·lbs</span></div>`
+})).concat(vehicles.map(v => ({
+  hay: (v.n + ' lug nut wheel').toLowerCase(),
+  url: v.u,
+  html: `<div><span class="font-medium text-gray-900">${v.n}</span> <span class="text-xs text-gray-400 ml-1">lug nuts</span></div>
+      <div class="text-sm"><span class="font-bold text-emerald-600">${v.t}</span> <span class="text-gray-400">· ${v.p}</span></div>`
+})));
+
+function tokens(s) { return s.replace(/"/g, '').split(/[\s·]+/).filter(Boolean); }
+
 input.addEventListener('input', function() {
-  const q = this.value.toLowerCase().trim();
+  const q = this.value.toLowerCase().replace(/"/g, '').trim();
   if (q.length < 1) { results.classList.add('hidden'); return; }
-
-  const matches = bolts.filter(b => {
-    const searchStr = (b.label + ' ' + b.size + ' ' + b.class).toLowerCase();
-    return q.split(/\s+/).every(term => searchStr.includes(term));
-  }).slice(0, 12);
-
-  if (matches.length === 0) { results.classList.add('hidden'); return; }
-
-  results.innerHTML = matches.map(b =>
-    `<a href="${b.url}" class="flex items-center justify-between px-4 py-3 hover:bg-emerald-50 border-b border-gray-100 last:border-0">
-      <div><span class="font-medium text-gray-900">${b.label}</span> <span class="text-xs text-gray-400 ml-1">${b.type}</span></div>
-      <div class="text-sm"><span class="font-bold text-emerald-600">${b.nm} N·m</span> <span class="text-gray-400">/ ${b.ftlbs} ft·lbs</span></div>
-    </a>`
-  ).join('');
+  const terms = q.split(/\s+/);
+  const matches = [];
+  for (const e of entries) {
+    if (!terms.every(t => e.hay.includes(t))) continue;
+    const words = tokens(e.hay);
+    const score = terms.reduce((s, t) => s + (words.includes(t) ? 2 : 0) + (e.hay.startsWith(t) ? 1 : 0), 0);
+    matches.push([score, e]);
+  }
+  matches.sort((a, b) => b[0] - a[0]);
+  if (matches.length === 0) {
+    results.innerHTML = '<div class="px-4 py-3 text-sm text-gray-500">No matches. Try a size and grade such as <strong>M10 8.8</strong> or <strong>1/2 grade 5</strong>, or a vehicle such as <strong>Camry</strong>.</div>';
+  } else {
+    results.innerHTML = matches.slice(0, 12).map(([, e]) =>
+      `<a href="${e.url}" class="flex items-center justify-between px-4 py-3 hover:bg-emerald-50 border-b border-gray-100 last:border-0">${e.html}</a>`
+    ).join('');
+  }
   results.classList.remove('hidden');
 });
 
