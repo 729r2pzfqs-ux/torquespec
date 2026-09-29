@@ -95,7 +95,7 @@
 <section class="bg-gradient-to-b from-emerald-50 to-white px-4 py-8">
   <div class="max-w-3xl mx-auto">
     <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">How We Calculate Bolt Torque</h1>
-    <p class="text-gray-600">Every value on TorqueSpec is calculated from published engineering standards — never copied from other websites. Here's exactly how.</p>
+    <p class="text-gray-600">Every bolt-chart value on TorqueSpec is calculated from published engineering standards rather than copied from other tables; vehicle and engine figures come from manufacturer data, as explained below. Here's exactly how.</p>
   </div>
 </section>
 
@@ -109,7 +109,7 @@
       </div>
       <div class="space-y-3 text-gray-600">
         <p><strong class="text-gray-900">T</strong> — Tightening torque</p>
-        <p><strong class="text-gray-900">K</strong> — Nut factor (friction coefficient). Depends on surface condition: dry steel = 0.20, oiled = 0.15, zinc plated = 0.18, waxed = 0.10, MoS₂ = 0.12, galvanized = 0.25. Values per VDI 2230.</p>
+        <p><strong class="text-gray-900">K</strong> — Nut factor (friction coefficient). Depends on surface condition: dry steel = 0.20, oiled = 0.15, zinc plated = 0.18, waxed = 0.10, MoS₂ = 0.12, galvanized = 0.25. These are typical nut factors, consistent with the thread and head friction coefficients VDI 2230 gives for each surface condition.</p>
         <p><strong class="text-gray-900">D</strong> — Nominal bolt diameter</p>
         <p><strong class="text-gray-900">F</strong> — Clamp load = 75% of proof load. Proof load = proof stress × tensile stress area. The 75% factor provides a safety margin below the bolt's proof load, which is standard practice in non-critical fastener applications.</p>
       </div>
@@ -140,7 +140,7 @@
         </div>
         <div class="border-l-4 border-emerald-500 pl-4">
           <p class="font-bold text-gray-900">ISO 261 / ISO 262</p>
-          <p class="text-sm text-gray-600">ISO general purpose metric screw threads — General plan and selected sizes. Defines thread geometry, pitch, and stress areas for metric fasteners.</p>
+          <p class="text-sm text-gray-600">ISO general purpose metric screw threads — General plan and selected sizes. Defines the thread series and pitches for metric fasteners. The tensile stress area used in the calculations comes from ISO 898-1.</p>
         </div>
         <div class="border-l-4 border-emerald-500 pl-4">
           <p class="font-bold text-gray-900">ASME B1.1</p>
@@ -148,7 +148,7 @@
         </div>
         <div class="border-l-4 border-emerald-500 pl-4">
           <p class="font-bold text-gray-900">VDI 2230 (2015)</p>
-          <p class="text-sm text-gray-600">Systematic Calculation of Highly Stressed Bolted Joints. Provides K-factor (nut factor) values for various surface conditions and lubrication states.</p>
+          <p class="text-sm text-gray-600">Systematic Calculation of Highly Stressed Bolted Joints. Provides friction coefficients for thread and bearing surfaces under different surface conditions and lubrication states, from which typical nut factors (K) follow.</p>
         </div>
       </div>
     </div>
