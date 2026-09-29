@@ -287,7 +287,7 @@
 
 - [Toyota lug nut torque](https://torquespec.org/lug-nuts/toyota/): all 9 models
 - [Toyota Camry](https://torquespec.org/lug-nuts/toyota/camry/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
-- [Toyota Corolla](https://torquespec.org/lug-nuts/toyota/corolla/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
+- [Toyota Corolla](https://torquespec.org/lug-nuts/toyota/corolla/): 76 ft·lbs / 103 N·m · 5×100 · M12×1.5 · 21 mm socket
 - [Toyota RAV4](https://torquespec.org/lug-nuts/toyota/rav4/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
 - [Toyota Highlander](https://torquespec.org/lug-nuts/toyota/highlander/): 76 ft·lbs / 103 N·m · 5×114.3 · M12×1.5 · 21 mm socket
 - [Toyota Tacoma](https://torquespec.org/lug-nuts/toyota/tacoma/): 83 ft·lbs / 113 N·m · 6×139.7 · M12×1.5 · 21 mm socket
@@ -312,7 +312,7 @@
 - [Ford lug nut torque](https://torquespec.org/lug-nuts/ford/): all 8 models
 - [Ford F-150](https://torquespec.org/lug-nuts/ford/f-150/): 150 ft·lbs / 203 N·m · 6×135 · M14×1.5 · 22 mm socket
 - [Ford F-250](https://torquespec.org/lug-nuts/ford/f-250/): 165 ft·lbs / 224 N·m · 8×170 · M14×1.5 · 22 mm socket
-- [Ford Explorer](https://torquespec.org/lug-nuts/ford/explorer/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 21 mm socket
+- [Ford Explorer](https://torquespec.org/lug-nuts/ford/explorer/): 150 ft·lbs / 203 N·m · 5×114.3 · M14×1.5 · 21 mm socket
 - [Ford Escape](https://torquespec.org/lug-nuts/ford/escape/): 100 ft·lbs / 136 N·m · 5×108 · M12×1.5 · 19 mm socket
 - [Ford Mustang](https://torquespec.org/lug-nuts/ford/mustang/): 150 ft·lbs / 203 N·m · 5×114.3 · M14×1.5 · 21 mm socket
 - [Ford Bronco](https://torquespec.org/lug-nuts/ford/bronco/): 150 ft·lbs / 203 N·m · 6×139.7 · M14×1.5 · 22 mm socket
@@ -323,9 +323,9 @@
 
 - [Chevrolet lug nut torque](https://torquespec.org/lug-nuts/chevrolet/): all 8 models
 - [Chevrolet Silverado 1500](https://torquespec.org/lug-nuts/chevrolet/silverado/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
-- [Chevrolet Equinox](https://torquespec.org/lug-nuts/chevrolet/equinox/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 19 mm socket
+- [Chevrolet Equinox](https://torquespec.org/lug-nuts/chevrolet/equinox/): 100 ft·lbs / 136 N·m · 5×115 · M14×1.5 · 19 mm socket
 - [Chevrolet Tahoe](https://torquespec.org/lug-nuts/chevrolet/tahoe/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
-- [Chevrolet Traverse](https://torquespec.org/lug-nuts/chevrolet/traverse/): 100 ft·lbs / 136 N·m · 5×120 · M14×1.5 · 19 mm socket
+- [Chevrolet Traverse](https://torquespec.org/lug-nuts/chevrolet/traverse/): 140 ft·lbs / 190 N·m · 6×120 · M14×1.5 · 19 mm socket
 - [Chevrolet Malibu](https://torquespec.org/lug-nuts/chevrolet/malibu/): 100 ft·lbs / 136 N·m · 5×115 · M12×1.5 · 19 mm socket
 - [Chevrolet Colorado](https://torquespec.org/lug-nuts/chevrolet/colorado/): 140 ft·lbs / 190 N·m · 6×120 · M14×1.5 · 22 mm socket
 - [Chevrolet Camaro](https://torquespec.org/lug-nuts/chevrolet/camaro/): 140 ft·lbs / 190 N·m · 5×120 · M14×1.5 · 19 mm socket
@@ -377,7 +377,7 @@
 - [Jeep lug nut torque](https://torquespec.org/lug-nuts/jeep/): all 5 models
 - [Jeep Wrangler](https://torquespec.org/lug-nuts/jeep/wrangler/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
 - [Jeep Grand Cherokee](https://torquespec.org/lug-nuts/jeep/grand-cherokee/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
-- [Jeep Cherokee](https://torquespec.org/lug-nuts/jeep/cherokee/): 110 ft·lbs / 149 N·m · 5×110 · M12×1.5 · 19 mm socket
+- [Jeep Cherokee](https://torquespec.org/lug-nuts/jeep/cherokee/): 100 ft·lbs / 136 N·m · 5×110 · M12×1.5 · 19 mm socket
 - [Jeep Compass](https://torquespec.org/lug-nuts/jeep/compass/): 110 ft·lbs / 149 N·m · 5×110 · M12×1.5 · 19 mm socket
 - [Jeep Gladiator](https://torquespec.org/lug-nuts/jeep/gladiator/): 130 ft·lbs / 176 N·m · 5×127 · M14×1.5 · 22 mm socket
 
@@ -392,8 +392,8 @@
 ### Mercedes-Benz
 
 - [Mercedes-Benz lug nut torque](https://torquespec.org/lug-nuts/mercedes/): all 4 models
-- [Mercedes-Benz C-Class](https://torquespec.org/lug-nuts/mercedes/c-class/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
-- [Mercedes-Benz E-Class](https://torquespec.org/lug-nuts/mercedes/e-class/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Mercedes-Benz C-Class](https://torquespec.org/lug-nuts/mercedes/c-class/): 96 ft·lbs / 130 N·m · 5×112 · M14×1.5 · 17 mm socket
+- [Mercedes-Benz E-Class](https://torquespec.org/lug-nuts/mercedes/e-class/): 96 ft·lbs / 130 N·m · 5×112 · M14×1.5 · 17 mm socket
 - [Mercedes-Benz GLC](https://torquespec.org/lug-nuts/mercedes/glc/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
 - [Mercedes-Benz GLE](https://torquespec.org/lug-nuts/mercedes/gle/): 110 ft·lbs / 149 N·m · 5×112 · M14×1.5 · 17 mm socket
 
@@ -427,15 +427,15 @@
 
 - [Ram lug nut torque](https://torquespec.org/lug-nuts/ram/): all 3 models
 - [Ram 1500](https://torquespec.org/lug-nuts/ram/1500/): 130 ft·lbs / 176 N·m · 5×139.7 · M14×1.5 · 22 mm socket
-- [Ram 2500](https://torquespec.org/lug-nuts/ram/2500/): 145 ft·lbs / 197 N·m · 8×165.1 · M14×1.5 · 22 mm socket
-- [Ram 3500](https://torquespec.org/lug-nuts/ram/3500/): 145 ft·lbs / 197 N·m · 8×165.1 · M14×1.5 · 22 mm socket
+- [Ram 2500](https://torquespec.org/lug-nuts/ram/2500/): 130 ft·lbs / 176 N·m · 8×165.1 · M14×1.5 · 22 mm socket
+- [Ram 3500](https://torquespec.org/lug-nuts/ram/3500/): 130 ft·lbs / 176 N·m · 8×165.1 · M14×1.5 · 22 mm socket
 
 ### GMC
 
 - [GMC lug nut torque](https://torquespec.org/lug-nuts/gmc/): all 4 models
 - [GMC Sierra](https://torquespec.org/lug-nuts/gmc/sierra/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
-- [GMC Acadia](https://torquespec.org/lug-nuts/gmc/acadia/): 100 ft·lbs / 136 N·m · 5×120 · M14×1.5 · 19 mm socket
-- [GMC Terrain](https://torquespec.org/lug-nuts/gmc/terrain/): 100 ft·lbs / 136 N·m · 5×114.3 · M14×1.5 · 19 mm socket
+- [GMC Acadia](https://torquespec.org/lug-nuts/gmc/acadia/): 140 ft·lbs / 190 N·m · 6×120 · M14×1.5 · 19 mm socket
+- [GMC Terrain](https://torquespec.org/lug-nuts/gmc/terrain/): 100 ft·lbs / 136 N·m · 5×115 · M14×1.5 · 19 mm socket
 - [GMC Yukon](https://torquespec.org/lug-nuts/gmc/yukon/): 140 ft·lbs / 190 N·m · 6×139.7 · M14×1.5 · 22 mm socket
 
 ### Dodge
